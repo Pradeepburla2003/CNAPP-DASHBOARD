@@ -1,0 +1,42 @@
+{
+    "title": "CNAPP Dashboard",
+    "categories": [
+        {
+            "id": "cspm",
+            "name": "CSPM Executive Dashboard",
+            "widgetIds": [
+                "w1",
+                "w3"
+            ]
+        },
+        {
+            "id": "cwpp",
+            "name": "CWPP Dashboard",
+            "widgetIds": [
+                "w2"
+            ]
+        },
+        {
+            "id": "cloud",
+            "name": "Cloud Accounts",
+            "widgetIds": []
+        }
+    ],
+    "widgets": [
+        {
+            "id": "w1",
+            "name": "Cloud Account Risk Assessment",
+            "text": "Last 2 days: Connected (2), Not Connected (2)"
+        },
+        {
+            "id": "w2",
+            "name": "Top 5 Namespace Specific Alerts",
+            "text": "No Graph data available!"
+        },
+        {
+            "id": "w3",
+            "name": "Image Risk Assessment",
+            "text": "1470 Total Vulnerabilities (Critical 9, High 150)"
+        }
+    ]
+}
